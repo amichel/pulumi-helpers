@@ -1,0 +1,2 @@
+#set($context.requestOverride.querystring.TopicArn = '@@TOPIC@@')
+#set($context.requestOverride.querystring.Message = $util.urlEncode($input.body))
