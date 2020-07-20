@@ -1,0 +1,15 @@
+{
+    "name": "backend-stacks",
+    "devDependencies": {
+        "@types/node": "^14.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^2.11.0",
+        "@pulumi/awsx": "^0.20.0",
+        "@pulumi/pulumi": "^2.5.0",
+        "@types/bent": "^7.0.2",
+        "@types/crypto-js": "^3.1.47",
+        "bent": "^7.3.7",
+        "crypto-js": "^4.0.0"
+    }
+}
