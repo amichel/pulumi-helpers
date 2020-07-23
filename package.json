@@ -1,15 +1,34 @@
 {
-    "name": "backend-stacks",
-    "devDependencies": {
-        "@types/node": "^14.0.0"
-    },
-    "dependencies": {
-        "@pulumi/aws": "^2.11.0",
-        "@pulumi/awsx": "^0.20.0",
-        "@pulumi/pulumi": "^2.5.0",
-        "@types/bent": "^7.0.2",
-        "@types/crypto-js": "^3.1.47",
-        "bent": "^7.3.7",
-        "crypto-js": "^4.0.0"
-    }
+  "name": "pulumi-helpers",
+  "devDependencies": {
+    "@types/node": "^14.0.0"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^2.11.0",
+    "@pulumi/awsx": "^0.20.0",
+    "@pulumi/pulumi": "^2.5.0",
+    "@types/bent": "^7.0.2",
+    "@types/crypto-js": "^3.1.47",
+    "bent": "^7.3.7",
+    "crypto-js": "^4.0.0"
+  },
+  "repository": {
+    "url": "git://github.com/amichel/pulumi-helpers.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@amichel",
+    "name": "@amichel/pulumi-helpers"
+  },
+  "version": "1.0.0",
+  "description": "Utilities and components wrapping around Pulumi to reuse in different projects as higher level abstractions",
+  "bugs": {
+    "url": "https://github.com/amichel/pulumi-helpers/issues"
+  },
+  "homepage": "https://github.com/amichel/pulumi-helpers#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Michel",
+  "license": "ISC"
 }
